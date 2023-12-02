@@ -14,7 +14,7 @@ private:
     static int count2;
 public:
     static void print_title(){
-        cout<<"\t\t Studemt "<<count2 <<" details...." <<endl;
+        cout<<"\t\t Student "<<count2 <<" details...." <<endl;
         count2++;
     }
     void get_det(){
