@@ -113,9 +113,9 @@ int main()
     cin>>num;
     Book *ptr=new Book(num);
     for(int i=0;i<num;i++)
-    {
-        cout<<"enter the "<<i+1<<" number"<<endl;
-        cin>>ptr[i]
+    { 
+        Book::counter_det();
+        cout<<ptr[i]->get()<<endl;
 
     }
     //Book obj1, *ptr;
