@@ -116,8 +116,14 @@ int main()
     { 
         Book::counter_det();
         cout<<ptr[i]->get()<<endl;
+        ptr++;
 
     }
+    for (int i=0; i<num; i++)
+    {
+         ptr->display();
+    }
+
     //Book obj1, *ptr;
     //ptr=&obj1;
     //Book ::counter_det();
