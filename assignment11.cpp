@@ -108,10 +108,20 @@ void Book ::display()
 }
 int main()
 {
-    Book obj1, *ptr;
-    ptr=&obj1;
-    Book ::counter_det();
-    obj1.get();
-    ptr->display();
+    int num;
+    cout<<"Enter the number of element you want to insert in array"<<endl;
+    cin>>num;
+    Book *ptr=new Book(num);
+    for(int i=0;i<num;i++)
+    {
+        cout<<"enter the "<<i+1<<" number"<<endl;
+        cin>>ptr[i]
+
+    }
+    //Book obj1, *ptr;
+    //ptr=&obj1;
+    //Book ::counter_det();
+    //obj1.get();
+    //ptr->display();
     return 0;
 }
