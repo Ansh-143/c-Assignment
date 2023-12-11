@@ -79,10 +79,8 @@ public:
         counter++;
     }
     void get()
-    {
-        string x, y;
-        int z;
-        // counter_det();
+    {
+        counter_det();
         cout << "Enter the Book Title :- " << endl;
         cin >> title;
 
@@ -111,17 +109,17 @@ int main()
     int num;
     cout<<"Enter the number of element you want to insert in array"<<endl;
     cin>>num;
-    Book *ptr=new Book(num);
+    Book *arr=new Book(num);
     for(int i=0;i<num;i++)
     { 
         Book::counter_det();
-        cout<<ptr[i]->get()<<endl;
+        arr[i]->get();
         ptr++;
 
     }
     for (int i=0; i<num; i++)
     {
-         ptr->display();
+         arr->display();
     }
 
     //Book obj1, *ptr;
