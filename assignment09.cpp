@@ -11,8 +11,7 @@ private:
 public:
     void get_details();
     void display();
-};
-int Book :: count=1;
+};
 void Book :: get_details(){
     cout<<"Enter the Book Title :- "<<endl;
     cin>>title;
