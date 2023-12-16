@@ -9,7 +9,6 @@ private:
     int age;
     int year;
     string course;
-    static int count;
 public:
     void get_det(){
         cout<<"Enter your Name"<<endl;
@@ -26,15 +25,14 @@ public:
         cout<<endl;
     }
     void display(){
-        cout<<"\t\t\t Student "<<count <<" details ..."  <<endl;
+        cout<<"\t\t\t Student  details ..."  <<endl;
         cout<<"Student neme is :- "<<name  <<endl;
         cout<<"Student Age is  :- "<<age  <<endl;
         cout<<"Admission Year is :- "<<year  <<endl;
         cout<<"Sudent Addmission course is :-"<<course <<endl;
         count++;      
     }
-};
-int Student :: count=1;
+};
 int main()
 {
 Student obj1;
