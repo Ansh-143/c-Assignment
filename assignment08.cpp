@@ -42,31 +42,4 @@ obj1.get_det();
 obj1.display();
 return 0;
 }
-
-// using objects only 
-/*
-# include<iostream>
-# include<string>
-using namespace std;
-class Student0
-{
-public:
-    string name;
-    int age;
-    int year;
-    string course;
-};
-int main()
-{
-Student obj1;
-obj1.name;
-obj1.age;
-obj1.year;
-obj1.course;
-cout<<"Student Name :- "<< obj1.name <<endl;
-cout<<"Student Age  :- "<<obj1.age  <<endl;
-cout<<"Admission Year :- "<<obj1.year  <<endl;
-cout<<"Admission Course :- "<<obj1.course <<endl;
-return 0;
-}
-*/
+
