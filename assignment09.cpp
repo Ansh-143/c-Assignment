@@ -7,8 +7,7 @@ class Book
 private:
     string title;
     string author;
-    int price;
-    static int count;
+    int price;
 public:
     void get_details();
     void display();
@@ -25,7 +24,7 @@ void Book :: get_details(){
     cin>>price;
 }
 void Book :: display(){
-    cout<<"Book "<<count<< "details..." <<endl;
+    cout<<"Book details..." <<endl;
        
     cout<<"Title of Book is :- "<< title <<endl;
     cout<<"Author of the Book is :- "<< author <<endl;
