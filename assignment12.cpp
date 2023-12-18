@@ -48,7 +48,10 @@ int main()
     cout<<"How many Student details you want to insert "<<endl;
     cin>>num;
     // Student std[100];
+    //dynamic array 
     Student* ptr=new Student[num];
+    //creating dynamic pointer
+    //Student ** ptrTemp= new Student*[]
     Student* ptrTemp= ptr;
     for (int i = 0; i < num; i++)
     {
